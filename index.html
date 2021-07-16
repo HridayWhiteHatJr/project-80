@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>P-80</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+    <script></script>
+  </head>
+  <body>
+    <h1>Guest List</h1>
+    <span>
+      <input placeholder="Enter Name" id="name_txt" type="text" />
+      <button id="btn_submit" onclick="submit()" type="button">Submit</button>
+    </span>
+    <hr />
+    <div id="displayNames"></div>
+    <hr />
+    <h1>Guest List</h1>
+    <button id="btn_show" onclick="show()" type="button">Show</button>
+    <div id="show_names" ></div>
+    <hr />
+    <button onclick ="sort()" id="btn_sortedList">Sorted List</button>
+    <div id="sorted_names"></div>
+    <hr />
+    <span>
+      <input type="text" placeholder="Search Name" id="search_input" />
+      <button onclick="search()" id="search_btn" type="button">Search</button>
+    </span>
+    <p id="something"></p>
+  </body>
+</html>
